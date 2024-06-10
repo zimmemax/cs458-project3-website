@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fish Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="chinook.html">Chinook</a></li>
+                <li><a href="steelhead.html">Steelhead</a></li>
+                <li><a href="coho.html">Coho</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Welcome to the Oregon Trophy Fishing Website</h1>
+            <div>
+                <p>This website provides salmon and steelhead visualizations based on Chinook, Steelhead, and Coho catch statistics. Click on the different links above to view visualizations based on each fish.</p>
+            </div>
+            <p><b>(Figure 1)</b> Salmon and Steelhead monthly catch counts shown in a force-directed Gephi graph.</p>
+
+            <img src="img/network-graph.png" alt="Home Image">
+            <div>
+                <p>The process for utilizing the graph is as follows: If it is September and we want to go fishing, we can look at the graph and see that there are SeptCoho and SeptChinook nodes. Then, we look at the similar colored water bodies and have options for the location to fish. For example, if I decide I want to fish for Chinook salmon in September (the green SeptChinook node), I know I should fish at location code 213, 214, 21, or 215 as they are also green. All of these locations are the best spots to catch Chinook salmon in Oregon during the month of September.</p>
+                <p>This graph removes the question: "When and Where do I catch salmon/Steelhead?"</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Max Zimmer</p>
+    </footer>
+</body>
+</html>
